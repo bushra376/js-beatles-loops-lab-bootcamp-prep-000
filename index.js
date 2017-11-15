@@ -9,8 +9,12 @@ function theBeatlesPlay(arrMusicians, arrInstruments){
 function johnLennonFacts(arrFact){
   var size = 0;
   while(size < arrFact.length-1){
-    arrFact[size] = "arrFact[size]+"!!!" ";
+    var fact = arrFact[size];
+    arrFact[size] = fact + "!!!";
+    /*
+    arrFact[size].push("!!!"); //= "arrFact[size]+"!!!" ";
     //arrFact
+    */
     size++;
   }
 }
