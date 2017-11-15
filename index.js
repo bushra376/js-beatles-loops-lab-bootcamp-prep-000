@@ -17,4 +17,5 @@ function johnLennonFacts(arrFact){
     */
     size++;
   }
+  return arrFact;
 }
